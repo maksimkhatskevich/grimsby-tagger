@@ -1,0 +1,28 @@
+name: 🐞 Ошибка
+description: Что-то работает не так, как должно
+labels: [ошибка]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Версия Grimsby Tagger
+      description: Версия указана в названии установщика
+      placeholder: например, 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      description: Что вы делали и что пошло не так (формат файлов, какой альбом). Если можно — приложите скриншот.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Как должно было быть
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      placeholder: например, Windows 11

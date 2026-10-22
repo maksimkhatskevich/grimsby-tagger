@@ -1,0 +1,11 @@
+name: 💡 Идея
+description: Чего не хватает в Grimsby Tagger
+labels: [идея]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что хотелось бы
+      description: Опишите идею и зачем она вам — так проще понять, как её лучше сделать.
+    validations:
+      required: true

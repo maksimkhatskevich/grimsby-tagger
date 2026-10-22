@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ✉️ Написать на почту
+    url: mailto:grimsbyy@gmail.com
+    about: Если не хочется заводить аккаунт на GitHub
+  - name: 📣 Telegram-канал Grimsby
+    url: https://t.me/itsgrimsby
+    about: Новости и музыка
