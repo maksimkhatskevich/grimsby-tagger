@@ -16,6 +16,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=версия&color=3FAC59" alt="Версия"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/бесплатно-без%20рекламы-111314" alt="Бесплатно, без рекламы">
+  <a href="https://www.virustotal.com/gui/file/b751613b791a24d8bc8ba8cddc225921bd529d27bce441955ff651db80b25111"><img src="https://img.shields.io/badge/VirusTotal-0%2F64-2E7D32" alt="VirusTotal 0/64"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=скачиваний&color=858A8D" alt="Скачиваний"></a>
 </p>
 
@@ -88,8 +89,10 @@ Grimsby найдёт релиз в музыкальных базах (MusicBrain
 ### 📦 Пакетная правка и не только
 
 - Отметьте несколько альбомов → исполнитель альбома, год, жанр или лейбл для всех сразу; объединение в один альбом.
+- Трек попал не в тот альбом? Перетащите его в нужный — при сохранении он получит теги и обложку альбома и переедет в его папку.
+- Диски размечаются разделителями между треками, номера на каждом диске пересчитываются сами.
 - Дополнительные поля: лейбл, копирайт, композитор, комментарий, ISRC, текст песни.
-- Обложки: заменить, перетащить картинку на обложку, убрать или скачать из найденного релиза.
+- Обложки: заменить, перетащить картинку на обложку, посмотреть в полном размере, обрезать до квадрата, привести к стандарту 1280×1280 PNG (сразу для многих альбомов), убрать или скачать из найденного релиза.
 
 ---
 
@@ -108,6 +111,7 @@ Grimsby найдёт релиз в музыкальных базах (MusicBrain
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** и скачайте установщик `.exe`.
 2. Запустите его. Windows может показать синее окно «Система Windows защитила ваш компьютер» — это обычное
    предупреждение для программ без платного сертификата подписи. Нажмите **Подробнее → Выполнить в любом случае**.
+   Установщик проверен на VirusTotal: [ни один из 64 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/b751613b791a24d8bc8ba8cddc225921bd529d27bce441955ff651db80b25111) (версия 1.0.0).
 3. Нажмите **«Добавить папку…»** или перетащите папку с музыкой в окно.
 
 **Требования:** Windows 10 или 11 (64 бит). Интернет нужен только для поиска альбомов.

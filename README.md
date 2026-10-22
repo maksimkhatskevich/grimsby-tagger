@@ -16,6 +16,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=version&color=3FAC59" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
+  <a href="https://www.virustotal.com/gui/file/b751613b791a24d8bc8ba8cddc225921bd529d27bce441955ff651db80b25111"><img src="https://img.shields.io/badge/VirusTotal-0%2F64-2E7D32" alt="VirusTotal 0/64"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -88,8 +89,10 @@ Preview before renaming, duplicate check — and **Undo rename** if you change y
 ### 📦 Batch editing and more
 
 - Tick several albums → set album artist, year, genre or label for all of them at once; merge them into one album.
+- A track in the wrong album? Drag it to the right one — on save it gets that album's tags and cover and moves to its folder.
+- Discs are marked with dividers between tracks; track numbers on each disc are recalculated automatically.
 - Extra fields: label, copyright, composer, comment, ISRC, lyrics.
-- Covers: replace, drag a picture onto the cover, remove, or download from the release found online.
+- Covers: replace, drag a picture onto the cover, view full size, crop to a square, bring to the 1280×1280 PNG standard (for many albums at once), remove, or download from the release found online.
 
 ---
 
@@ -108,6 +111,7 @@ Supports MP3, FLAC, M4A (AAC/ALAC), OGG, Opus, WAV, AIFF, APE, WavPack, WMA and 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** page and download the installer `.exe`.
 2. Run it. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps
    without a paid code-signing certificate. Click **More info → Run anyway**.
+   The installer has been checked on VirusTotal: [0 of 64 antivirus engines flag it](https://www.virustotal.com/gui/file/b751613b791a24d8bc8ba8cddc225921bd529d27bce441955ff651db80b25111) (version 1.0.0).
 3. Click **Add folder…** or drag your music folder into the window.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed to find albums online.
