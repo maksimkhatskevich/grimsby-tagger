@@ -125,13 +125,13 @@ It goes online only when you search for an album yourself.
 
 ---
 
-## Grimsby family
+## Grimsby apps
 
 <table>
   <tr>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Offline music &amp; video player for your downloaded collection</sub></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — offline</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><sub>You are here</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-en.svg" alt="You are here"></td>
   </tr>
 </table>
 
