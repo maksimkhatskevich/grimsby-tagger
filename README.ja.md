@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3FAC59" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/e4dfabdb0c5f60a9fc7c6c42132a6e3492d6ef2414fcf21a93ebd759987a35e0"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -88,6 +88,30 @@ MV、ライブ映像などの動画も、音楽と同じようにカードの中
 
 ![テンプレートでファイル名を変更](screenshots/ja/rename.jpg)
 
+### 📋 ファイルごとのタグを表で
+
+各カードの下に、ファイルごとに 1 行、タグごとに 1 列の表が表示されます。表計算ソフトのようでいて、アプリと同じデザイン。セルをクリックで編集（設定で **ダブルクリック** にも変更可）、見出しを右クリックで **列** を選択、Shift + ホイールで横スクロール。動画にも対応。
+
+![表で見るファイルごとのタグ](screenshots/ja/table.jpg)
+
+### 🖼 好きなサイズのカバー
+
+**サイズ…** で幅と高さを自由に、または **正方形 1:1** に。比率が違うときは中央で切り抜く・余白を追加・引き伸ばすから選べます。プレビューにすぐ結果が表示され、枠の端をマウスでドラッグして手動で切り抜いたり伸ばしたりもできます。PNG か JPEG でタグに書き込むほか、**ファイルとして保存…** で別の画像として残すこともできます。1280×1280 PNG の標準もワンクリックのままです。
+
+![カバーのサイズと形式](screenshots/ja/cover-size.jpg)
+
+### 📅 ネットからリリース日
+
+**リリース日を探す** で、オンラインの音楽データベースからアルバムの正確な発売日を探し、最も早い日付をほかの変更と一緒にタグへ書き込みます。
+
+![見つかったリリース日](screenshots/ja/release-date.jpg)
+
+### 🗓 リリース日のないアルバム
+
+リストの上の **リリース日なし** ボタンで、完全な日付がないアルバムをすべて開けます。「日付なし」「年のみ」「見つかった」の絞り込みと検索付き。**日付を探す** でチェックしたアルバムの日付をまとめてネットで探し、**修正** で 1 枚ずつネットまたは手入力で直せます。日付は常に YYYY-MM-DD 形式で、アルバムの年もそこから決まります。
+
+![リリース日のないアルバム](screenshots/ja/no-dates.jpg)
+
 ### 📦 一括編集など
 
 - 複数のアルバムにチェック → アルバムアーティスト、年、ジャンル、レーベルを一度に設定。ひとつのアルバムに統合も。
@@ -99,6 +123,10 @@ MV、ライブ映像などの動画も、音楽と同じようにカードの中
 言語、アップデート（通知のみ・自動・確認しない）、更新内容、お問い合わせ、ほかの Grimsby アプリをひとつのページに。ウィンドウのサイズと位置も記憶します。
 
 🌍 **9 言語：** 英語、ロシア語、スペイン語、ポルトガル語、ドイツ語、フランス語、中国語、日本語、韓国語。設定で切り替えるとすぐに反映されます。
+
+ライトテーマもワンクリック。上の太陽ボタンです。
+
+![ライトテーマ](screenshots/ja/albums-light.jpg)
 
 ![設定](screenshots/ja/settings.jpg)
 
@@ -120,7 +148,7 @@ MV、ライブ映像などの動画も、音楽と同じようにカードの中
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** のページを開き、インストーラー `.exe` をダウンロードします。
 2. 実行します。Windows に青い「Windows によって PC が保護されました」画面が出ることがありますが、有料の署名証明書がないアプリでは普通の警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/e4dfabdb0c5f60a9fc7c6c42132a6e3492d6ef2414fcf21a93ebd759987a35e0)（バージョン 1.1.0）。
+   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b)（バージョン 1.3.0）。
 3. **フォルダーを追加…** をクリックするか、音楽フォルダーを画面にドラッグします。
 
 **動作環境：** Windows 10 / 11（64 ビット）。 インターネットはアルバムを探すときだけ必要です。
@@ -137,9 +165,11 @@ Grimsby Tagger はあなたのパソコンの中で動きます。アカウン�
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ja.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>ダウンロードした音楽と MV のためのオフラインプレーヤー</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-ja.svg" alt="このページ"></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ja.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>ダウンロードした音楽と MV のためのオフラインプレーヤー</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ja.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC の状態がひと目でわかる：プロセス、温度、クリーンアップ</sub></td>
   </tr>
 </table>
 

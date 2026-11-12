@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=%EB%B2%84%EC%A0%84&color=3FAC59" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/e4dfabdb0c5f60a9fc7c6c42132a6e3492d6ef2414fcf21a93ebd759987a35e0"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -88,6 +88,30 @@
 
 ![템플릿으로 파일 이름 바꾸기](screenshots/ko/rename.jpg)
 
+### 📋 파일마다의 태그를 한 표에
+
+각 카드 아래에 파일마다 한 줄, 태그마다 한 열인 표가 있습니다. 스프레드시트 같지만 앱과 같은 디자인입니다. 셀을 클릭해 편집하고(설정에서 **두 번 클릭** 으로 바꿀 수 있음), 머리글을 오른쪽 클릭해 **열** 을 고르고, Shift + 휠로 옆으로 스크롤합니다. 영상도 똑같이 됩니다.
+
+![표로 보는 파일별 태그](screenshots/ko/table.jpg)
+
+### 🖼 원하는 크기의 커버
+
+**크기…** 에서 너비와 높이를 자유롭게 정하거나 **정사각형 1:1** 로 맞춥니다. 비율이 다르면 가운데 기준으로 자르기, 여백 추가, 늘이기 중에서 고릅니다. 미리 보기에 결과가 바로 나오고, 테두리를 마우스로 끌어 직접 자르거나 늘일 수도 있습니다. PNG나 JPEG로 태그에 기록하거나 **파일로 저장…** 으로 따로 이미지로 남길 수 있습니다. 1280×1280 PNG 표준도 여전히 클릭 한 번입니다.
+
+![커버 크기와 형식](screenshots/ko/cover-size.jpg)
+
+### 📅 인터넷에서 발매일 찾기
+
+**발매일 찾기** 는 온라인 음악 데이터베이스에서 앨범의 정확한 발매일을 찾아 가장 이른 날짜를 골라 다른 수정 사항과 함께 태그에 기록합니다.
+
+![찾은 발매일](screenshots/ko/release-date.jpg)
+
+### 🗓 발매일이 없는 앨범
+
+목록 위의 **발매일 없음** 버튼을 누르면 전체 날짜가 없는 모든 앨범이 열립니다. “날짜 없음”, “연도만”, “찾음” 필터와 검색이 있습니다. **날짜 찾기** 는 체크한 앨범의 날짜를 한꺼번에 인터넷에서 찾고, **수정** 은 앨범 하나를 인터넷이나 직접 입력으로 고칩니다. 날짜는 항상 YYYY-MM-DD 형식이고, 앨범 연도도 여기서 정해집니다.
+
+![발매일이 없는 앨범](screenshots/ko/no-dates.jpg)
+
 ### 📦 일괄 편집 등
 
 - 여러 앨범을 체크 → 앨범 아티스트, 연도, 장르, 레이블을 한 번에 설정하고 하나의 앨범으로 합치기.
@@ -99,6 +123,10 @@
 언어, 업데이트(알림만, 자동, 확인 안 함), 새 소식, 문의, 다른 Grimsby 앱까지 한 페이지에. 창 크기와 위치도 기억합니다.
 
 🌍 **9개 언어:** 영어, 러시아어, 스페인어, 포르투갈어, 독일어, 프랑스어, 중국어, 일본어, 한국어 — 설정에서 바꾸면 바로 적용됩니다.
+
+라이트 테마도 클릭 한 번, 위쪽의 해 모양 버튼입니다.
+
+![라이트 테마](screenshots/ko/albums-light.jpg)
 
 ![설정](screenshots/ko/settings.jpg)
 
@@ -120,7 +148,7 @@
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** 페이지를 열고 설치 프로그램 `.exe`를 다운로드하세요.
 2. 실행하세요. Windows가 파란색 "Windows의 PC 보호" 창을 띄울 수 있는데, 유료 코드 서명 인증서가 없는 프로그램에 대한 일반적인 경고입니다. **추가 정보 → 실행**을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/e4dfabdb0c5f60a9fc7c6c42132a6e3492d6ef2414fcf21a93ebd759987a35e0) (버전 1.1.0).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b) (버전 1.3.0).
 3. **폴더 추가…**를 누르거나 음악 폴더를 창에 끌어다 놓으세요.
 
 **요구 사항:** Windows 10 또는 11(64비트). 인터넷은 앨범을 찾을 때만 필요합니다.
@@ -137,9 +165,11 @@ Grimsby Tagger는 내 컴퓨터에서 동작합니다. 계정도, 광고도, 분
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ko.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>다운로드한 음악과 뮤직비디오를 위한 오프라인 플레이어</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-ko.svg" alt="현재 페이지"></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ko.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>다운로드한 음악과 뮤직비디오를 위한 오프라인 플레이어</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ko.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC 상태를 한눈에: 프로세스, 온도, 정리</sub></td>
   </tr>
 </table>
 

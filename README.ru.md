@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3FAC59" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/e4dfabdb0c5f60a9fc7c6c42132a6e3492d6ef2414fcf21a93ebd759987a35e0"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -88,6 +88,30 @@
 
 ![Переименование файлов по шаблону](screenshots/ru/rename.jpg)
 
+### 📋 Теги каждого файла в одной таблице
+
+Под каждой карточкой — таблица: строка на каждый файл, столбец на каждый тег, как в электронной таблице, но в том же стиле, что и вся программа. Щелчок по ячейке — правка (в настройках можно выбрать **«Двойной клик»**), правая кнопка по заголовку — **«Столбцы»**, вбок — Shift + колесо. Для видео так же.
+
+![Теги каждого файла в таблице](screenshots/ru/table.jpg)
+
+### 🖼 Обложка любого размера
+
+**«Размер…»** задаёт любую ширину и высоту или **«Квадрат 1:1»**; если пропорции другие — обрезать по центру, добавить поля или растянуть. Превью сразу показывает результат, а рамку можно тянуть за края мышью, чтобы обрезать или растянуть вручную. Записать в теги как PNG или JPEG — или сохранить отдельной картинкой кнопкой **«Сохранить как файл…»**. Стандарт PNG 1280×1280 по-прежнему в один клик.
+
+![Размер и формат обложки](screenshots/ru/cover-size.jpg)
+
+### 📅 Дата релиза из интернета
+
+**«Найти дату релиза»** ищет полную дату выхода альбома в музыкальных базах в интернете, берёт самую раннюю и записывает её в теги вместе с остальными правками.
+
+![Найденная дата релиза](screenshots/ru/release-date.jpg)
+
+### 🗓 Альбомы без даты релиза
+
+Кнопка **«Без даты релиза»** над списком открывает все альбомы без полной даты: фильтры «Нет даты», «Только год», «Найдено» и поиск. **«Найти даты»** ищет в интернете сразу для всех отмеченных, **«Исправить»** — для одного альбома, из интернета или вручную. Дата всегда в формате ГГГГ-ММ-ДД, год альбома берётся из неё.
+
+![Альбомы без даты релиза](screenshots/ru/no-dates.jpg)
+
 ### 📦 Пакетная правка и не только
 
 - Отметьте несколько альбомов → исполнитель альбома, год, жанр или лейбл для всех сразу; объединение в один альбом.
@@ -99,6 +123,10 @@
 Язык, обновления (только сообщать, автоматически или не проверять), «Что нового», обратная связь и другие программы Grimsby — всё на одной странице. Окно запоминает размер и положение.
 
 🌍 **9 языков:** русский, английский, испанский, португальский, немецкий, французский, китайский, японский и корейский — переключаются в настройках сразу.
+
+Светлая тема — в один клик, кнопка с солнцем вверху.
+
+![Светлая тема](screenshots/ru/albums-light.jpg)
 
 ![Настройки](screenshots/ru/settings.jpg)
 
@@ -120,7 +148,7 @@
 
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** и скачайте установщик `.exe`.
 2. Запустите его. Windows может показать синее окно «Система Windows защитила ваш компьютер» — это обычное предупреждение для программ без платного сертификата подписи. Нажмите **Подробнее → Выполнить в любом случае**.
-   Установщик проверен на VirusTotal: [ни один из 67 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/e4dfabdb0c5f60a9fc7c6c42132a6e3492d6ef2414fcf21a93ebd759987a35e0) (версия 1.1.0).
+   Установщик проверен на VirusTotal: [ни один из 67 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b) (версия 1.3.0).
 3. Нажмите **«Добавить папку…»** или перетащите папку с музыкой в окно.
 
 **Требования:** Windows 10 или 11 (64 бит). Интернет нужен только для поиска альбомов.
@@ -137,9 +165,11 @@ Grimsby Tagger работает на вашем компьютере. Без а�
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ru.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Офлайн-плеер для скачанной музыки и клипов</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ru.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Видео, аудио, фото и документы — конвертация без интернета</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-ru.svg" alt="Вы здесь"></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ru.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Офлайн-плеер для скачанной музыки и клипов</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ru.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Видео, аудио, фото и документы — конвертация без интернета</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-ru.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ru.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Простой телесуфлёр, который следует за голосом</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ru.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>Состояние ПК с первого взгляда: процессы, температуры, чистка</sub></td>
   </tr>
 </table>
 
