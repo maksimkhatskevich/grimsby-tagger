@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=%E7%89%88%E6%9C%AC&color=3FAC59" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/af172f8680328cf11d6d5f5cdcf970edd40949a2aa5ae664b6adc701d932ddf6"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -118,19 +118,19 @@ MV、演唱会和其他视频的编辑方式和音乐一样，可以批量直接
 - 更多字段：厂牌、版权、作曲、备注、ISRC、歌词。
 - 封面：替换、把图片拖到封面上、查看原图、裁成正方形、统一为 1280×1280 PNG，或从找到的版本下载。
 
-### ⚙️ 设置集中在一页
+### ⚡ 大型媒体库也流畅
 
-语言、更新（仅提醒、自动或不检查）、更新内容、反馈和其他 Grimsby 应用——全都在一页。窗口会记住大小和位置。
+专辑列表只绘制屏幕上可见的部分：300 张专辑时滚动顺滑四倍，占用内存更少，输入更快。大量写入过程中会同步清理备份，备份文件夹不会超过 5 GB。UTF-8 编码、含西里尔字母等文字的 WAV 标签可正确读写。
+
+### ⚙️ 设置与个性外观
+
+设置分为多个分区——外观、语言、更新以及软件自己的分区，顶部的搜索只显示匹配的内容。主题可选深色、浅色或跟随 Windows；软件颜色有十种现成的，也可以自定义。 更新：仅提醒、自动安装或不检查。
 
 🌍 **9 种语言：** 英语、俄语、西班牙语、葡萄牙语、德语、法语、中文、日语和韩语——在设置中切换，立即生效。
 
 浅色主题一键切换——顶部的太阳按钮。
 
 ![浅色主题](screenshots/zh/albums-light.jpg)
-
-![设置](screenshots/zh/settings.jpg)
-
-![Grimsby 应用与反馈](screenshots/zh/apps.jpg)
 
 ---
 
@@ -148,7 +148,7 @@ MV、演唱会和其他视频的编辑方式和音乐一样，可以批量直接
 
 1. 打开 **[最新版本](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** 页面，下载安装程序 `.exe`。
 2. 运行它。Windows 可能会显示蓝色的“Windows 已保护你的电脑”窗口——这是没有付费代码签名证书的程序的正常提示。点击 **更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b)（1.3.0 版）。
+   安装程序已在 VirusTotal 上检测：[68 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/af172f8680328cf11d6d5f5cdcf970edd40949a2aa5ae664b6adc701d932ddf6)（1.4.0 版）。
 3. 点击 **添加文件夹…**，或把音乐文件夹拖进窗口。
 
 **系统要求：** Windows 10 或 11（64 位）。 只有在线查找专辑时才需要联网。
@@ -165,11 +165,15 @@ Grimsby Tagger 在你的电脑上运行。无需账号，没有广告，没有�
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.zh.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>为你下载的音乐和 MV 打造的离线播放器</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.zh.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-zh.svg" alt=""></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.zh.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>会跟随你声音的简单提词器</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.zh.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>电脑状态一目了然：进程、温度、清理</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.zh.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>为你下载的音乐和 MV 打造的离线播放器</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.zh.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
+    <td align="center" width="25%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-zh.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.zh.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>会跟随你声音的简单提词器</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.zh.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>电脑状态一目了然：进程、温度、清理</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.zh.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>带动画音乐插段的视频编辑器</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.zh.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>任务、项目、笔记和日历，一个窗口全搞定</sub></td>
   </tr>
 </table>
 

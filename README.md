@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-tagger?label=version&color=3FAC59" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3FAC59" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/af172f8680328cf11d6d5f5cdcf970edd40949a2aa5ae664b6adc701d932ddf6"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-tagger/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-tagger/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -118,19 +118,19 @@ The **No release date** button above the list opens every album without a full d
 - Extra fields: label, copyright, composer, comment, ISRC, lyrics.
 - Covers: replace, drag a picture onto the cover, view full size, crop to a square, bring to the 1280×1280 PNG standard, or download from the release found online.
 
-### ⚙️ Settings on one page
+### ⚡ Smooth on a big library
 
-Language, updates (notify only, automatically or don't check), what's new, feedback and the other Grimsby apps — all on a single page. The window remembers its size and position.
+The album feed draws only what is on screen: with 300 albums scrolling is four times smoother, the app uses less memory and typing is faster. Backups are cleaned up during a large write, so the backup folder never grows beyond 5 GB. WAV tags in UTF-8 with Cyrillic and other alphabets are read and written correctly.
+
+### ⚙️ Settings and your own look
+
+Settings are split into sections — Appearance, Language, Updates and the app’s own — with a search at the top that shows only what matches. Theme: dark, light or as in Windows; the app color: ten ready-made colors or your own. Updates: notify only, install automatically or don’t check.
 
 🌍 **9 languages:** English, Russian, Spanish, Portuguese, German, French, Chinese, Japanese and Korean — switch in Settings, it changes right away.
 
 The light theme is one click away — the sun button at the top.
 
 ![Light theme](screenshots/en/albums-light.jpg)
-
-![Settings](screenshots/en/settings.jpg)
-
-![Grimsby apps and feedback](screenshots/en/apps.jpg)
 
 ---
 
@@ -148,7 +148,7 @@ Music: MP3, FLAC, M4A (AAC/ALAC), OGG, Opus, WAV, AIFF, APE, WavPack, WMA and DS
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-tagger/releases/latest)** page and download the installer `.exe`.
 2. Run it. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/6bb0a80156c65ba9162d62ad8a0d80e0615c3cb57cf728ce70f4d0971fccaf5b) (version 1.3.0).
+   The installer has been checked on VirusTotal: [0 of 68 antivirus engines flag it](https://www.virustotal.com/gui/file/af172f8680328cf11d6d5f5cdcf970edd40949a2aa5ae664b6adc701d932ddf6) (version 1.4.0).
 3. Click **Add folder…** or drag your music folder into the window.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed to find albums online.
@@ -165,11 +165,15 @@ Grimsby Tagger works on your computer. No accounts, no ads, no analytics. It goe
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Offline music & video player for your downloaded collection</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — converted offline</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-en.svg" alt=""></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>A simple teleprompter that follows your voice</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC health at a glance: processes, temperatures, cleanup</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Offline music & video player for your downloaded collection</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — converted offline</sub></td>
+    <td align="center" width="25%"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b><br><img src="screenshots/family/here-en.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>A simple teleprompter that follows your voice</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-helper"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC health at a glance: processes, temperatures, cleanup</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>Video editor with animated music inserts</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>Tasks, projects, notes and calendar in one window</sub></td>
   </tr>
 </table>
 
